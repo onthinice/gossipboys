@@ -309,6 +309,25 @@ box-shadow: rgba(255, 255, 255, 0.36) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px
 }
 </style>
       <body style="                          background-color: black;"> <br>
-          
+                <style>
+        /* Base styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header, nav, section, article, footer {
+            margin: 10px;
+            padding: 10px;
+        }
+        /* Responsive styles */
+        @media only screen and (max-width: 600px) {
+            /* Adjust styles for smaller screens */
+            header, nav, section, article, footer {
+                margin: 5px;
+                padding: 5px;
+            }
+        }
+    </style>
 </html>
 
