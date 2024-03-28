@@ -1,97 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+ <link rel="shortcut icon" type="image/x-icon" href="favicon.png"> 
+</head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Container styles */
+        .container {
+            max-width: 500px; /* Adjust as needed */
+            margin: 500px auto; /* Center the container */
+            padding: 10px; /* Add padding around the container */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Your existing website content goes here -->
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        /* Base styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        /* Container styles */
+        .container {
+            max-width: 480x; /* Adjust as needed */
+            margin: 0 auto; /* Center the container */
+            padding: 10px; /* Add padding around the container */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Your existing website content goes here -->
+
     <head>
-		<link rel="shortcut icon" type="image/x-icon" href="favicon.png">
-	</head>
-   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <head>
-
-    <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="shortcut icon"
-            href="favicon.png"
-            type="image/x-icon" />
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script type="text/javascript">
-            function tb8_makeArray(n) {
-                this.length = n;
-                return this.length;
-            }
-            tb8_messages = new tb8_makeArray(3);
-            tb8_messages[0] = "WHERE IS IT...?";
-            tb8_messages[1] = "ASK AROUND..";
-            tb8_messages[2] = "GOSSIP.";
-            tb8_rptType = "infinite";
-            tb8_rptNbr = 5;
-            tb8_speed = 100;
-            tb8_delay = 2000;
-            var tb8_counter = 1;
-            var tb8_currMsg = 0;
-            var tb8_tekst = "";
-            var tb8_i = 0;
-            var tb8_TID = null;
-            function tb8_pisi() {
-                tb8_tekst =
-                    tb8_tekst +
-                    tb8_messages[tb8_currMsg].substring(tb8_i, tb8_i + 1);
-                document.title = tb8_tekst;
-                tb8_sp = tb8_speed;
-                tb8_i++;
-                if (tb8_i == tb8_messages[tb8_currMsg].length) {
-                    tb8_currMsg++;
-                    tb8_i = 0;
-                    tb8_tekst = "";
-                    tb8_sp = tb8_delay;
-                }
-                if (tb8_currMsg == tb8_messages.length) {
-                    if (tb8_rptType == "finite" && tb8_counter == tb8_rptNbr) {
-                        clearTimeout(tb8_TID);
-                        return;
-                    }
-                    tb8_counter++;
-                    tb8_currMsg = 0;
-                }
-                tb8_TID = setTimeout("tb8_pisi()", tb8_sp);
-            }
-            tb8_pisi();
-        </script>
-        <title>GOSSIP...?</title>
-
-  </head>
-   <body>
+      <p hidden><audio controls autoplay>
+    <source src="https://audio.jukehost.co.uk/vi10beSpNUEOTR3bBqbVp8QnmFLx4vRl" type="audio/mpeg" />
+       <link
+           rel="shortcut icon"
+           href="favicon.png"
+           type="image/x-icon" />
+       <meta charset="UTF-8" />
+       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       <script type="text/javascript">
+           function tb8_makeArray(n) {
+               this.length = n;
+               return this.length;
+           }
+           tb8_messages = new tb8_makeArray(3);
+           tb8_messages[0] = "WHERE IS IT...?";
+           tb8_messages[1] = "ASK AROUND..";
+           tb8_messages[2] = "GOSSIP.";
+           tb8_rptType = "infinite";
+           tb8_rptNbr = 5;
+           tb8_speed = 100;
+           tb8_delay = 2000;
+           var tb8_counter = 1;
+           var tb8_currMsg = 0;
+           var tb8_tekst = "";
+           var tb8_i = 0;
+           var tb8_TID = null;
+           function tb8_pisi() {
+               tb8_tekst =
+                   tb8_tekst +
+                   tb8_messages[tb8_currMsg].substring(tb8_i, tb8_i + 1);
+               document.title = tb8_tekst;
+               tb8_sp = tb8_speed;
+               tb8_i++;
+               if (tb8_i == tb8_messages[tb8_currMsg].length) {
+                   tb8_currMsg++;
+                   tb8_i = 0;
+                   tb8_tekst = "";
+                   tb8_sp = tb8_delay;
+               }
+               if (tb8_currMsg == tb8_messages.length) {
+                   if (tb8_rptType == "finite" && tb8_counter == tb8_rptNbr) {
+                       clearTimeout(tb8_TID);
+                       return;
+                   }
+                   tb8_counter++;
+                   tb8_currMsg = 0;
+               }
+               tb8_TID = setTimeout("tb8_pisi()", tb8_sp);
+           }
+           tb8_pisi();
+       </script>
+       <title>GOSSIP...?</title>
+ <body>
 <div class="crt">
 <div class="container">
-  
-<img style="margin-top: -2px; margin-left: -401px;" src="" width="1550px">
+<img style="margin-top: -8px; margin-left: -591px;" src="" width="px">
 <div class="date"><span style=" position: relative;
- top: -18px;
- font-size: 16px;
+top: -18px;
+font-size: 16px;
 right: -721px;" id="datetime"></span></div>
 
- <div style="margin-top: 111px; margin-left: 24px;" class="caitsith">
- <span title="enter our world"><a href="https://discord.com/invite/chYhrA3k5V"><img src="https://i.postimg.cc/W1NSfKkc/ds-demo-stuff-v4.png" height="106"></a></span>
-  </div>
+<div style="margin-top: 111px; margin-left: 2px;" class="caitsith">
+<span title="enter our world"><a href="https://discord.com/invite/chYhrA3k5V"><img src="https://i.postimg.cc/W1NSfKkc/ds-demo-stuff-v4.png" height="106"></a></span>
+ </div>
 
- <div style="" class="picto">
- <span title="picto chat"><a href="https://pict.chat/"><img src="https://caitsith.neocities.org/pictochat1.png" height="107px"></a></span>
-  </div>
-  
-  <div style="" class="download">
- <span title="work in progress"><a href=""><img src="https://caitsith.neocities.org/downloadplay.png" height="108px"></a></span>
-  </div>
+<div style="" class="picto">
+<span title="picto chat"><a href="https://pict.chat/"><img src="https://caitsith.neocities.org/pictochat1.png" height="107px"></a></span>
+ </div>
+ 
+ <div style="" class="download">
+<span title="work in progress"><a href=""><img src="https://caitsith.neocities.org/downloadplay.png" height="108px"></a></span>
+ </div>
 
- <div style="" class="webrings">
-  
- <span title="work in progress"><img src="https://caitsith.neocities.org/webrings12.png" height="108px" width="444px"></span>
-  <!-- Geekring widget #3 - 88x31 px banner by wirlaburla -->
+<div style="" class="webrings">
+ 
+<span title="work in progress"><img src="https://caitsith.neocities.org/webrings12.png" height="108px" width="444px"></span>
+ <!-- Geekring widget #3 - 88x31 px banner by wirlaburla -->
 
 
 
 <!-- The dots/circles -->
 
-  </div>
+ </div>
 </div>
 </div>
 
@@ -103,200 +140,200 @@ right: -721px;" id="datetime"></span></div>
 
 <style>
 
- body {
-  height: 100%;  
-  background-image: url("");
- background-repeat: no repeat;
-  background-attachment: fixed;
-  background-size: 111%;
-  background-position: 75%;
-  
-    }
-     body {
-                font-family: geo;
-                font-size: 28px;
-                color: white;
-                background-color: #05030f;
-                margin: 0;
-                padding: 0;
-                height: 100vh;
-                cursor: url("https://liminal.photos/cursor.png"),
-                    auto;
-            }
-    
-  .container {
-   position: relative;
-margin: auto; 
-  width: 540px;
-  display: block;
-  }
-  
-  .caitsith {
-   position: absolute; 
+body {
+ height: 100%;  
+ background-image: url("");
+background-repeat: no repeat;
+ background-attachment: fixed;
+ background-size: 111%;
+ background-position: 75%;
  
-    margin: auto;
-  }
-  
-  .caitsith:hover {
+   }
+    body {
+               font-family: geo;
+               font-size: 28px;
+               color: white;
+               background-color: #05030f;
+               margin: 0;
+               padding: 0;
+               height: 100vh;
+               cursor: url("https://liminal.photos/cursor.png"),
+                   auto;
+           }
+   
+ .container {
+  position: relative;
+margin: auto; 
+ width: 540px;
+ display: block;
+ }
+ 
+ .caitsith {
+  position: absolute; 
+
+   margin: auto;
+ }
+ 
+ .caitsith:hover {
 position: absolute;  
 box-shadow: rgba(255, 255, 255, 0.36) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 0px;
-      cursor: url("https://liminal.photos/cursor.png"),
-                    auto;
-  }
-  
-    .picto {
-  position: absolute; 
-  margin: auto;
-  display: block;
-  margin-top: 230px;
-  margin-left: 25px;
-        cursor: url("https://liminal.photos/cursor.png"),
-                    auto;
-  }
-  
-   .picto:hover {
-  position: absolute;  
-box-shadow: rgba(255, 255, 255, 0.36) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 0px;
+     cursor: url("https://liminal.photos/cursor.png"),
+                   auto;
+ }
+ 
+   .picto {
+ position: absolute; 
+ margin: auto;
+ display: block;
+ margin-top: 230px;
+ margin-left: 2px;
        cursor: url("https://liminal.photos/cursor.png"),
-                    auto;
-  }
-  
-      .download {
-  position: absolute; 
-  margin: auto;
-  display: block;
-  margin-top: 230px;
-  margin-left: 253px;
-          cursor: url("https://liminal.photos/cursor.png"),
-                    auto;
-  }
-  
-   .download:hover {
-  position: absolute;  
+                   auto;
+ }
+ 
+  .picto:hover {
+ position: absolute;  
 box-shadow: rgba(255, 255, 255, 0.36) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 0px;
-  }
-  
-  .crt::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
-  z-index: 2;
-  background-size: 100% 2px, 3px 100%;
-  pointer-events: none;
+      cursor: url("https://liminal.photos/cursor.png"),
+                   auto;
+ }
+ 
+     .download {
+ position: absolute; 
+ margin: auto;
+ display: block;
+ margin-top: 230px;
+ margin-left: 228px;
+         cursor: url("https://liminal.photos/cursor.png"),
+                   auto;
+ }
+ 
+  .download:hover {
+ position: absolute;  
+box-shadow: rgba(255, 255, 255, 0.36) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 0px;
+ }
+ 
+ .crt::before {
+ content: " ";
+ display: block;
+ position: absolute;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ right: 0;
+ background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+ z-index: 2;
+ background-size: 100% 2px, 3px 100%;
+ pointer-events: none;
 }
 
- @font-face {
+@font-face {
 font-family: DS;
 src: url("Nintendo-DS-BIOS.ttf") format("truetype");
 }
 
 .date {
- font-family: DS; 
- color: white;
- position: relative;
- top: -18px;
- font-size: 16px
+font-family: DS; 
+color: white;
+position: relative;
+top: -18px;
+font-size: 16px
 right: 211px;
 }
 
 .webrings {
-  margin-top: 351px;
-  margin-left: 26px;
+ margin-top: 351px;
+ margin-left: 2px;
 }
 
- .webrings:hover {
-  position: absolute;  
+.webrings:hover {
+ position: absolute;  
 box-shadow: rgba(255, 255, 255, 0.36) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 0px;
-  }
-  
-  * {box-sizing:border-box}
+ }
+ 
+ * {box-sizing:border-box}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 600px;
-  position: relative;
-  margin-top: -91px;
-  margin-left: 178px;
+ max-width: 600px;
+ position: relative;
+ margin-top: -91px;
+ margin-left: 178px;
 }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
+ display: none;
 }
 
 /* Next & previous buttons */
 .prev {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-  display: none;
+ cursor: pointer;
+ position: absolute;
+ top: 50%;
+ width: auto;
+ margin-top: -22px;
+ padding: 16px;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+ user-select: none;
+ display: none;
 }
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-    cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
+ right: 0;
+ border-radius: 3px 0 0 3px;
+   cursor: pointer;
+ position: absolute;
+ top: 50%;
+ width: auto;
+ margin-top: -22px;
+ padding: 16px;
+ color: white;
+ font-weight: bold;
+ font-size: 18px;
+ transition: 0.6s ease;
+ border-radius: 0 3px 3px 0;
+ user-select: none;
 }
 
 
 
 /* Caption text */
 .text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+ color: #f2f2f2;
+ font-size: 15px;
+ padding: 8px 12px;
+ position: absolute;
+ bottom: 8px;
+ width: 100%;
+ text-align: center;
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  font-family: ms pgothic;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+ color: #f2f2f2;
+ font-size: 12px;
+ font-family: ms pgothic;
+ padding: 8px 12px;
+ position: absolute;
+ top: 0;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
+ cursor: pointer; url("https://liminal.photos/cursor.png")
+ height: 15px;
+ width: 15px;
+ margin: 0 2px;
+ background-color: #bbb;
+ border-radius: 50%;
+ display: inline-block;
+ transition: background-color 0.6s ease;
 }
 
 
@@ -304,30 +341,9 @@ box-shadow: rgba(255, 255, 255, 0.36) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px
 
 
 @keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
+ from {opacity: .4}
+ to {opacity: 1}
 }
 </style>
-      <body style="                          background-color: black;"> <br>
-                <style>
-        /* Base styles */
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        header, nav, section, article, footer {
-            margin: 10px;
-            padding: 10px;
-        }
-        /* Responsive styles */
-        @media only screen and (max-width: 600px) {
-            /* Adjust styles for smaller screens */
-            header, nav, section, article, footer {
-                margin: 5px;
-                padding: 5px;
-            }
-        }
-    </style>
-</html>
-
+     <body style="                          background-color: black;"> <br>
+         <html></html>
